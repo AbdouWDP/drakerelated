@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.house {
+  height: calc(100vh - 72px);
+}
+.myhouse {
+  background-image: url("https://img-new.cgtrader.com/items/2421249/803e8fef38/architectural-interior-scene-living-room-3d-model-max-obj-3ds-fbx-dwg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.list-item,
+.link-list {
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.list-item.active,
+.link-list.active,
+.sm-list.active,
+.terms-list.active {
+  opacity: 0.3;
+}
+.overlay {
+  background: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+.links li,
+.footer-links li {
+  cursor: pointer;
+  margin: -4px;
+  transition: 0.3s ease;
+}
+.links {
+  transition: 0.3s ease;
+}
+.nav-menu,
+.shop-main,
+.product-page-main,
+.tour-main {
+  width: 96%;
+}
+.overlay-nav {
+  width: 90%;
+}
+.products,
+.events,
+.related-products-title {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.product-card {
+  width: calc(25% - 12px);
+}
+@media (max-width: 768px) {
+  .product-card {
+    width: 45%;
+  }
+}
+@media (max-width: 450px) {
+  .product-card {
+    width: 80%;
+  }
+}
+
+.add-to-cart-button button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  font-size: 12px;
+}
+.title-cart:hover .add-to-cart-button button {
+  color: white;
+  background-color: black;
+}
+.title-cart:hover ~ .product-price {
+  display: none;
+}
+.title-cart:hover ~ .product-sizes {
+  display: block;
+}
+.next-button,
+.product-page-image-next-button {
+  cursor: url("https://cdn.shopify.com/oxygen-v2/27038/12163/25018/211707/build/_assets/arrow-right-R5M4PHG7.svg")
+      15 8,
+    e-resize;
+}
+.previous-button,
+.product-page-image-prev-button {
+  cursor: url("https://cdn.shopify.com/oxygen-v2/27038/12163/25018/211707/build/_assets/arrow-left-3PGR7TIV.svg")
+      15 8,
+    e-resize;
+}
+.subscribe-input input {
+  border: 1px solid black;
+  outline: none;
+}
+.related-products {
+  border-bottom: 1px solid black;
+}
+.product-page-image-prev-button button,
+.product-page-image-next-button button {
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #e7e7e7;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+.product-page-image-prev-button button {
+  background-image: url("https://cdn.shopify.com/oxygen-v2/27038/12163/25018/211707/build/_assets/arrow-left-3PGR7TIV.svg");
+}
+.product-page-image-next-button button {
+  background-image: url("https://cdn.shopify.com/oxygen-v2/27038/12163/25018/211707/build/_assets/arrow-right-R5M4PHG7.svg");
+}
+.product-page-image-next-button:hover button {
+  opacity: 0;
+}
+.product-page-image-prev-button:hover button {
+  opacity: 0;
+}
+.add-to-cart-action {
+  border-top: 1px solid black;
+}
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: black;
+  transition: 0.3s ease;
+}
+.add-to-cart-action:hover .circle {
+  background-color: white;
+}
+.add-to-cart-action p {
+  transition: 0.3s ease;
+}
+.pages-aside {
+  border-right: 1px solid black;
+  background-color: white;
+}
+.pages-aside li {
+  cursor: pointer;
+}
+.house-rooms nav ol li {
+  margin-top: -4px;
+  margin-bottom: -4px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.mobile-bottom-nav li {
+  outline: 1px solid white;
+  outline-offset: 4px;
+  cursor: pointer;
+}
+.mobile-menu li {
+  width: fit-content;
+}
