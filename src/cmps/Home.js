@@ -115,7 +115,7 @@ function Home() {
             height: "72px",
           }}
         >
-          <nav className="overlay-nav h-full m-auto text-white font-bold max-md:w-11/12">
+          <nav className="overlay-nav h-full m-auto text-white font-bold">
             <ol className="w-full h-full flex justify-between items-center max-md:hidden">
               <li
                 className="list-item cursor-pointer text-lg"

@@ -46,6 +46,11 @@
 .overlay-nav {
   width: 96%;
 }
+@media (max-width: 768px) {
+  .overlay-nav {
+    width: 90%;
+  }
+}
 .products,
 .events,
 .related-products-title {
