@@ -42,11 +42,9 @@
 .nav-menu,
 .shop-main,
 .product-page-main,
-.tour-main {
-  width: 96%;
-}
+.tour-main,
 .overlay-nav {
-  width: 90%;
+  width: 96%;
 }
 .products,
 .events,
